@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Web Pages with JavaScript</h1>
+
+  <!-- 🎉 Part 1: Event Handling -->
+  <button id="toggleMessageBtn">Toggle Message</button>
+  <p id="message" class="hidden">Ubuntu means "I am because we are."</p>
+
+  <!-- 🎮 Part 2: Interactive Elements -->
+  <button id="counterBtn">Click Counter</button>
+  <p id="counterDisplay">Clicked 0 times</p>
+
+  <button id="themeToggleBtn">Toggle Light/Dark Mode</button>
+
+  <div class="faq">
+    <h3 class="faq-question">What is Ubuntu?</h3>
+    <p class="faq-answer hidden">Ubuntu is a philosophy of humanity and interconnectedness.</p>
+  </div>
+
+  <!--  Part 3: Form Validation -->
+  <form id="signupForm">
+    <h2>Sign Up</h2>
+    <label>Name: <input type="text" id="name" /></label>
+    <span class="error" id="nameError"></span><br />
+
+    <label>Email: <input type="text" id="email" /></label>
+    <span class="error" id="emailError"></span><br />
+
+    <label>Password: <input type="password" id="password" /></label>
+    <span class="error" id="passwordError"></span><br />
+
+    <button type="submit">Submit</button>
+    <p id="formSuccess" class="success"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
